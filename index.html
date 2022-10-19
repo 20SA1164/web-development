@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!--  Navbar -->
+    <nav class="fixed-top">
+      <div class="nama">
+        <h4>Siti Nur Fadhilah</h4>
+      </div>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#ringkas">Ringkasan</a>
+        </li>
+        <li>
+          <a href="#pengalaman">Pengalaman</a>
+        </li>
+        <li>
+          <a href="#email">Kirim Email</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home -->
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text1">
+              <h2 class="text1 fw-bold">Hi.. Saya Siti Nur Fadhilah</h2>
+              <p class="text2">Mahasiswa Informatika Universitas Amikom Purwokerto</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+              <img class="image" src="image.jpg" alt="Siti Nur Fadhilah" srcset="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home -->
+
+    <!-- RINGKAS -->
+    <section id="ringkas">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text1">
+              <h2 class="text3 fw-bold">Ringkasan</h2>
+              <p>
+                Saya adalah mahasiswa semester 5 Universitas Amikom Purwokerto. Hobi saya adalah belajar hal
+                baru, terlebih lagi dalam dunia pemrograman. Saya ingin membuat sebuah aplikasi yang dapat 
+                membantu banyak orang. AI memberikan saya tantangan tersendiri yaitu bagaimana sebuah mesin 
+                dapat membantu manusia hanya dengan menuliskan code - code tertentu.
+              </p>
+              <p>
+                Menurut saya pemrograman itu menarik dan menantang, karena dengan adanya pemrograman kita akan
+                semakin mengetahui bagaimana komputer dapat mengerjakan sebuah pekerjaan dari apa yang user
+                perintahkan.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="animasi image-fluid" src="animasi.png" alt="animasi" srcset="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END RINGKAS -->
+
+    <!-- PENGALAMAN -->
+    <section id="pengalaman">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div>
+              <h2 class="text5 fw-bold">Pengalaman</h2>
+              <h5 class="fw-bold">Universitas Amikom Purwokerto</h5>
+              <ul>
+                <li>Anggota Intermedia</li>
+                <li>Anggota Pramuka</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="pramuka image-fluid" src="logo_pramuka.png" alt="animasi" srcset="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PENGALAMAN -->
+
+    <section id="email">
+      <h2 class="text6 text-center">Krimi Saya Email</h2>
+      <div class="form">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nama@contoh.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Nama Lengkap</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Subjek Email</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Isi Pesan</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-success">Kirimkan Email</button>
+      </div>
+      
+    </section>
+
+    <!-- JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+    crossorigin="anonymous"></script>
+    <!-- END JS Script -->
+
+  </body>
+</html>
